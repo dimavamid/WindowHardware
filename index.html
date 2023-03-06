@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Подбор фурнитуры</title>
+    
+    <link href="style.css" rel="stylesheet">
+  </head>
+  <body>  
+    <div>
+        <label for="brand">Марка фурнитуры:</label>
+        <select class="__select" id="brand" name="brandName">
+          <option>Roto T300</option>
+          <option selected>Roto Al</option>
+          <option>Roto Designio Al</option>
+          <option>Siegenia 2200</option>
+          <option>Siegenia 5200</option>
+          <option>Siegenia Axxent+</option>
+        </select>
+
+        <label for="typeOpen">Тип открывания:</label>
+        <select class="__select" id="typeOpen" name="typeOfOpen">
+          <option>Поворотное</option>
+          <option selected>Поворотно-откидное</option>
+          <option>Фрамужное</option>
+        </select>
+    
+        <label for="color">Цвет фурнитуры:</label>
+        <select class="__select" id="color" name="colorF">
+          <option>Неокрас</option>
+          <option selected>Белый</option>
+          <option>Серый</option>
+        </select>
+      </div>
+
+    <div>
+      <label for="fb">Ширина створки,мм:</label>
+      <input class="__input" type="number" id="fb" name="fOfb" required>
+     
+      <label for="fh">Высота створки,мм:</label>
+      <input class="__input" type="number" id="fh" name="fOfh" required>
+
+      <label for="side">Сторона открывания:</label>
+      <select class="__select" id="side" name="sideOpen">
+        <option>Левая</option>
+        <option selected>Правая</option>
+      </select>
+    </div> 
+       
+    <div>
+      <button  class="button1">Подбор</button>
+  
+    </div>
+
+    <div>
+        <span id = "alarm">???</span>
+    </div>
+  
+    <div id = "tbl">
+      <table>
+        <col style="width:5%">
+        <col style="width:60%">
+        <col style="width:15%">
+        <col style="width:10%">
+        <thead>
+        <tr>
+          <th id="headNum">№</th>
+          <th>Наименование</th>
+          <th>Артикул</th>
+          <th>Количество</th>
+        </tr>
+      </thead>
+        <tr>
+          <td id="tbl11">1</td>
+          <td id="tbl12">?</td>
+          <td id="tbl13">?</td>
+          <td id="tbl14">?</td>
+        </tr>
+        <tr>
+          <td id="tbl21">2</td>
+          <td id="tbl22">?</td>
+          <td id="tbl23">?</td>
+          <td id="tbl24">?</td>
+        </tr>
+        <tr>
+          <td id="tbl31">3</td>
+          <td id="tbl32">?</td>
+          <td id="tbl33">?</td>
+          <td id="tbl34">?</td>
+        </tr>
+        <tr>
+          <td id="tbl41">4</td>
+          <td id="tbl42">?</td>
+          <td id="tbl43">?</td>
+          <td id="tbl44">?</td>
+        </tr>
+        <tr>
+          <td id="tbl51">5</td>
+          <td id="tbl52">?</td>
+          <td id="tbl53">?</td>
+          <td id="tbl54">?</td>
+        </tr>
+        <tr>
+          <td id="tbl61">6</td>
+          <td id="tbl62">?</td>
+          <td id="tbl63">?</td>
+          <td id="tbl64">?</td>
+        </tr>
+        <tr>
+          <td id="tbl71">7</td>
+          <td id="tbl72">?</td>
+          <td id="tbl73">?</td>
+          <td id="tbl74">?</td>
+        </tr>
+        <tr>
+          <td id="tbl81">8</td>
+          <td id="tbl82">?</td>
+          <td id="tbl83">?</td>
+          <td id="tbl84">?</td>
+        </tr>
+        <tr>
+          <td id="tbl91">9</td>
+          <td id="tbl92">?</td>
+          <td id="tbl93">?</td>
+          <td id="tbl94">?</td>
+        </tr>
+        <tr>
+          <td id="tbl101">10</td>
+          <td id="tbl102">?</td>
+          <td id="tbl103">?</td>
+          <td id="tbl104">?</td>
+        </tr>
+        <tr>
+          <td id="tbl111">11</td>
+          <td id="tbl112">?</td>
+          <td id="tbl113">?</td>
+          <td id="tbl114">?</td>
+        </tr>
+        <tr>
+          <td id="tbl121">12</td>
+          <td id="tbl122">?</td>
+          <td id="tbl123">?</td>
+          <td id="tbl124">?</td>
+        </tr>
+        <tr>
+          <td id="tbl131">13</td>
+          <td id="tbl132">?</td>
+          <td id="tbl133">?</td>
+          <td id="tbl134">?</td>
+        </tr>
+        <tr>
+          <td id="tbl141">14</td>
+          <td id="tbl142">?</td>
+          <td id="tbl143">?</td>
+          <td id="tbl144">?</td>
+        </tr>
+      </table>
+    </div>
+
+    <div>
+      <span id = "prim">Примечание!: </span>
+	    <span id="comm"></span>
+    </div>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>
